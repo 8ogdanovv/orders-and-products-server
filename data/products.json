@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "serialNumber": 1234,
+    "photo": "https://static.bhphoto.com/images/multiple_images/images500x500/1657721733_IMG_1794925.jpg",
+    "title": "Gigabyte M27F A 27\" 165 Hz KVM Gaming Monitor",
+    "type": "Monitors",
+    "specification": "Specification 1",
+    "price": [
+      {
+        "value": 100,
+        "symbol": "USD",
+        "isDefault": 0
+      },
+      {
+        "value": 2600,
+        "symbol": "UAH",
+        "isDefault": 1
+      }
+    ]
+  }
+]

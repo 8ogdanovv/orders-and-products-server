@@ -4,7 +4,7 @@ const { MongoClient } = require('mongodb');
 
 const app = express();
 const port = process.env.PORT || 8080;
-const uri = 'mongodb+srv://vadym4che:0i142857@cluster0.umin0i5.mongodb.net/mydatabase?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://vadym4che:k6VkVedi8wZMzswG@cluster0.umin0i5.mongodb.net/mydatabase?retryWrites=true&w=majority';
 
 app.use(cors());
 app.use(express.json());

@@ -36,7 +36,7 @@ export const orders = [
       price: [
         {value: 2, symbol: 'USD', isDefault: 0},
         {value: 50, symbol: 'UAH', isDefault: 1},
-      ],
+      ]
     },
   },
   {
@@ -56,7 +56,7 @@ export const orders = [
       price: [
         {value: 100, symbol: 'USD', isDefault: 0},
         {value: 2600, symbol: 'UAH', isDefault: 1},
-      ],
+      ]
     },
   },
   {
@@ -76,7 +76,7 @@ export const orders = [
       price: [
         {value: 2, symbol: 'USD', isDefault: 0},
         {value: 50, symbol: 'UAH', isDefault: 1},
-      ],
+      ]
     },
   },
 ]
@@ -92,6 +92,6 @@ export const products = [
     price: [
       {value: 100, symbol: 'USD', isDefault: 0},
       {value: 2600, symbol: 'UAH', isDefault: 1},
-    ],
+    ]
   }
 ]

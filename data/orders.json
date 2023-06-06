@@ -7,7 +7,7 @@
     "owner": null,
     "products": {
       "id": 1,
-      "quntity": 2,
+      "quantity": 2,
       "isNew": 1,
       "guarantee": {
         "start": "2017-06-29 12:09:33",
@@ -35,7 +35,7 @@
     "owner": null,
     "products": {
       "id": 1,
-      "quntity": 2,
+      "quantity": 2,
       "isNew": 0,
       "guarantee": {
         "start": "2017-06-29 12:09:33",
@@ -63,7 +63,7 @@
     "owner": "Христорождественский Александр",
     "products": {
       "id": 1,
-      "quntity": 2,
+      "quantity": 2,
       "isNew": 1,
       "guarantee": {
         "start": "2017-06-29 12:09:33",
@@ -91,7 +91,7 @@
     "owner": null,
     "products": {
       "id": 1,
-      "quntity": 1,
+      "quantity": 1,
       "isNew": 0,
       "guarantee": {
         "start": "2017-06-29 12:09:33",

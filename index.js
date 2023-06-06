@@ -7,6 +7,10 @@ const port = 3000;
 // JSON body parsing middleware
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("Express on Vercel");
+});
+
 // Define the routes
 app.get('/orders', (req, res) => {
   res.json(orders);
@@ -95,3 +99,5 @@ app.delete('/products/:index', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
+export default app;

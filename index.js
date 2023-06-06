@@ -1,8 +1,14 @@
 const express = require('express');
+const cors = require('cors');
 // Import the data module
 const { orders, products } = require('./data');
 const app = express();
 const port = process.env.PORT || 8080;
+
+app.use(cors());
+
+// Replace 'http://localhost:5173' with the actual origin of your frontend app
+// app.use(cors({ origin: 'http://localhost:5173' }));
 
 // JSON body parsing middleware
 app.use(express.json());

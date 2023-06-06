@@ -1,6 +1,6 @@
-import express from 'express';
+const express = require('express');
 // Import the data module
-import { orders, products } from './data.js';
+const { orders, products } = require('./data');
 const app = express();
 const port = process.env.PORT || 8080;
 

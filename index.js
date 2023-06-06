@@ -2,14 +2,18 @@ import express from 'express';
 // Import the data module
 import { orders, products } from './data.js';
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 8080;
 
 // JSON body parsing middleware
 app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("Express on Vercel");
-});
+app.get('/', (req, res) => {
+  res.send('Express JS on Vercel')
+})
+
+app.get('/ping', (req, res) => {
+  res.send('pong 🏓')
+})
 
 // Define the routes
 app.get('/orders', (req, res) => {
